@@ -32,12 +32,23 @@ cd neovim
 ./neovim/script.sh
 cd ..
 
+
+
+
 cd nerd-font
 ./nerd-font/script.sh
 cd ..
 
 cd kitty
 ./kitty/script.sh
+cd ..
+
+cd discord
+./discord/script.sh
+cd ..
+
+cd dbgate
+./dbgate/script.sh
 cd ..
 
 sudo apt remove firefox-esr -y
