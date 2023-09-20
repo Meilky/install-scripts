@@ -2,7 +2,7 @@
 
 sudo apt install zsh -y
 
-sudo chsh -s "$(which zsh)"
+sudo chsh -s "$(which zsh)" "$(echo $USER)"
 
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 

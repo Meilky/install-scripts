@@ -1,10 +1,19 @@
 #!/bin/bash
 
-sudo apt install ripgrep fuse git -y
+sudo apt install ripgrep git -y
+
+HERE="$(pwd)"
+
+cd /tmp
 
 wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
-chmod +x nvim.appimage
-sudo mv nvim.appimage /usr/bin/nvim
+chmod u+x nvim.appimage
+
+./nvim.appimage --appimage-extract
+
+sudo cp -r squashfs-root/usr /
+
+cd $HERE
 
 mkdir -p "$HOME/.config/nvim"
 
