@@ -1,33 +1,33 @@
 #!/bin/bash
 
 cd utils-packages
-./utils-packages/script.sh
+./script.sh
 cd ..
 
 cd git
-./git/script.sh
+./script.sh
 cd ..
 
 cd tmux
-./tmux/script.sh
+./script.sh
 cd ..
 
 cd zsh
-./zsh/script.sh
+./script.sh
 cd ..
 
 cd cargo
-./cargo/script.sh
+./script.sh
 cd ..
 
 cd nvm
-./nvm/script.sh
+./script.sh
 cd ..
 
 cd docker
-./docker/script.sh
+./script.sh
 cd ..
 
 cd neovim
-./neovim/script.sh
+./script.sh
 cd ..

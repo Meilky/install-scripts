@@ -1,55 +1,53 @@
 #!/bin/bash
 
 cd utils-packages
-./utils-packages/script.sh
+./script.sh
 cd ..
 
 cd git
-./git/script.sh
+./script.sh
 cd ..
 
 cd tmux
-./tmux/script.sh
+./script.sh
 cd ..
 
 cd zsh
-./zsh/script.sh
+./script.sh
 cd ..
 
 cd cargo
-./cargo/script.sh
+./script.sh
 cd ..
 
 cd nvm
-./nvm/script.sh
+./script.sh
 cd ..
 
 cd docker
-./docker/script.sh
+./script.sh
 cd ..
 
 cd neovim
-./neovim/script.sh
+./script.sh
 cd ..
-
-
 
 
 cd nerd-font
-./nerd-font/script.sh
+./script.sh
 cd ..
 
 cd kitty
-./kitty/script.sh
+./script.sh
 cd ..
 
 cd discord
-./discord/script.sh
+./script.sh
 cd ..
 
 cd dbgate
-./dbgate/script.sh
+./script.sh
 cd ..
 
-sudo apt remove firefox-esr -y
+sudo apt remove firefox-esr gnome-2048 aisleriot gnome-calculator gnome-calendar cheese gnome-chess gnome-clocks gnome-contacts evolution five-or-more four-in-a-row hitori gnome-klotski gnome-mahjongg gnome-maps gnome-mines gnome-music gnome-nibbles quadrapassel gnome-robots shotwell gnome-sudoku swell-foop tali gnome-taquin gnome-tetravex gnome-weather -y
 sudo apt install firefox -y
