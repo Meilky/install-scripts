@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 HERE="$(pwd)"
 
 cd /tmp
