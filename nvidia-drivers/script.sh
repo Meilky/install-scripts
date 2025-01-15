@@ -17,4 +17,4 @@ sudo update-initramfs -u
 
 sudo apt install nvidia-kernel-dkms -y
 
-sudo apt install nvidia-driver -y
+sudo apt install nvidia-driver nvidia-driver-cuda cuda-drivers -y
