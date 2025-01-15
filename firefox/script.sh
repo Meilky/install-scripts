@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install wget
+sudo apt install wget -y
 
 sudo install -d -m 0755 /etc/apt/keyrings
 
@@ -17,4 +17,4 @@ Pin-Priority: 1000
 ' | sudo tee /etc/apt/preferences.d/mozilla
 
 sudo apt update
-sudo apt install firefox
+sudo apt install firefox -y
