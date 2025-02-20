@@ -8,8 +8,8 @@ HERE="$(pwd)"
 
 cd /tmp
 
-wget -O nvim.appimage https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
-chmod u+x nvim.appimage
+wget -O nvim.appimage https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.appimage
+chmod +x nvim.appimage
 
 ./nvim.appimage --appimage-extract
 
@@ -19,7 +19,7 @@ cd $HERE
 
 mkdir -p "$HOME/.config/nvim"
 
-if [ -d "$HOME/.config/nvim" ]; then
+if [ -d "$HOME/.config/nvim/.git" ]; then
 	cd $HOME/.config/nvim
 
 	git pull
